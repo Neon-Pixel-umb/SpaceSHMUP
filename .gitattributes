@@ -1,2 +1,11 @@
-# Auto detect text files and perform LF normalization
+# Set default behavior, convert LF to CRLF on Windows
 * text=auto
+
+# Force Unix-style LF line endings for certain file types
+*.sh text eol=lf
+*.unity text eol=lf
+*.cs text eol=lf
+
+# Ensure binary files are not modified
+*.png binary
+*.jpg binary
