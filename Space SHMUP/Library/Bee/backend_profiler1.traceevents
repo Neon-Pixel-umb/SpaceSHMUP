@@ -1,0 +1,481 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1729270482824331, "dur":1605, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1729270482825949, "dur":40, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1729270482826009, "dur":10, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1729270482826020, "dur":798, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1729270482826873, "dur":868, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1729270482827741, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1729270482995220, "dur":385, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1729270482995605, "dur":30, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1729270482995635, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1729270482995638, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1729270482995645, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1729270482995647, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1729270482995656, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1729270482995659, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1729270482995665, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1729270482995668, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1729270482995675, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1729270482995677, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1729270482995683, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1729270482995685, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1729270482995690, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1729270482995693, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1729270482995700, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1729270482995703, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1729270482995710, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1729270482995712, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1729270482995717, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1729270482995719, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1729270482995725, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1729270482995727, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1729270482995733, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1729270482995753, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1729270482995795, "dur":1603, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1729270482826854, "dur":894, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1729270482827755, "dur":8223, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1729270482835989, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1729270482835999, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1729270482837984, "dur":610, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1729270482838597, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1729270482838695, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1729270482839065, "dur":5579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1729270482844645, "dur":1307, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1729270482845956, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1729270482845966, "dur":2683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1729270482848781, "dur":363, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1729270482849148, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1729270482849445, "dur":2803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1729270482852344, "dur":292, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1729270482852640, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1729270482852648, "dur":5013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1729270482857763, "dur":344, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1729270482858110, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1729270482858116, "dur":2669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1729270482860888, "dur":335, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1729270482861227, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1729270482861238, "dur":3636, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1729270482864998, "dur":343, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1729270482865344, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1729270482865350, "dur":3394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1729270482868895, "dur":360, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1729270482869259, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1729270482869268, "dur":3698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1729270482873054, "dur":249, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1729270482873307, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1729270482873314, "dur":2137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1729270482875538, "dur":288, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1729270482875829, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1729270482875836, "dur":3775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1729270482879707, "dur":280, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1729270482879991, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1729270482879997, "dur":3111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1729270482883237, "dur":639, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1729270482883879, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1729270482883921, "dur":2440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1729270482886466, "dur":3039, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1729270482889509, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1729270482889516, "dur":5212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1729270482894948, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1729270482895112, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1729270482895123, "dur":4557, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1729270482899762, "dur":95468, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1729270482826907, "dur":851, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1729270482827758, "dur":8228, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1729270482835989, "dur":412, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1729270482836446, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1729270482840470, "dur":4644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1729270482845235, "dur":8555, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729270482853793, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1729270482855946, "dur":2441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729270482858515, "dur":291, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729270482858810, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1729270482858819, "dur":2559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729270482861484, "dur":504, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729270482861993, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1729270482862000, "dur":2802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729270482864904, "dur":317, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729270482865225, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1729270482865233, "dur":2726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729270482868046, "dur":397, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729270482868447, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1729270482868457, "dur":2274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729270482870824, "dur":515, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729270482871343, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1729270482871354, "dur":3019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729270482874509, "dur":1545, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729270482876057, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1729270482876064, "dur":4280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729270482880462, "dur":867, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729270482881333, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1729270482881373, "dur":3045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729270482884538, "dur":324, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729270482884866, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1729270482884876, "dur":2870, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729270482887863, "dur":1919, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729270482889785, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1729270482889792, "dur":4662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729270482894584, "dur":327, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1729270482894915, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1729270482894923, "dur":3168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1729270482898606, "dur":96610, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1729270482826946, "dur":819, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1729270482827766, "dur":8213, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1729270482835990, "dur":1089, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1729270482837082, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1729270482840296, "dur":4183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1729270482844586, "dur":232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1729270482844823, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1729270482845244, "dur":2879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1729270482848250, "dur":217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1729270482848471, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1729270482849079, "dur":19413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1729270482868611, "dur":343, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1729270482868980, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1729270482868989, "dur":4066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1729270482873172, "dur":286, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1729270482873461, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1729270482873472, "dur":2359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1729270482875918, "dur":262, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1729270482876196, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1729270482876204, "dur":3491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1729270482879815, "dur":685, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1729270482880504, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1729270482880512, "dur":2672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1729270482883283, "dur":1379, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1729270482884666, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1729270482884674, "dur":2986, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1729270482887825, "dur":433, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1729270482888294, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1729270482888305, "dur":2862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1729270482891278, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1729270482891383, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1729270482891539, "dur":3398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1729270482895103, "dur":171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1729270482895278, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1729270482895285, "dur":4007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1729270482899434, "dur":95791, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1729270482826977, "dur":794, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1729270482827772, "dur":8210, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1729270482835989, "dur":377, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1729270482836373, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1729270482840772, "dur":4226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1729270482845124, "dur":289, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1729270482845417, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1729270482845426, "dur":4415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1729270482850013, "dur":365, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1729270482850382, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1729270482850844, "dur":2311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1729270482853252, "dur":271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1729270482853527, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1729270482853534, "dur":5166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1729270482858810, "dur":336, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1729270482859153, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1729270482859197, "dur":2396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1729270482861675, "dur":228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1729270482861907, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1729270482861915, "dur":2977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1729270482865073, "dur":366, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1729270482865443, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1729270482865449, "dur":3739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1729270482869295, "dur":380, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1729270482869680, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1729270482869779, "dur":3895, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1729270482873799, "dur":435, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1729270482874238, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1729270482874245, "dur":3712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1729270482878065, "dur":481, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1729270482878549, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1729270482878557, "dur":2823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1729270482881497, "dur":457, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1729270482881958, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1729270482881964, "dur":2781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1729270482884858, "dur":466, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1729270482885327, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1729270482885334, "dur":3277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1729270482888725, "dur":5881, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1729270482894656, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1729270482894669, "dur":6079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1729270482900843, "dur":94396, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1729270482827014, "dur":762, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1729270482827776, "dur":8220, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1729270482836000, "dur":1359, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1729270482837362, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1729270482840304, "dur":4118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1729270482844529, "dur":973, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1729270482845506, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1729270482845639, "dur":2719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1729270482848502, "dur":348, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1729270482848855, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1729270482849344, "dur":2297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1729270482851726, "dur":317, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1729270482852048, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1729270482852057, "dur":4898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1729270482857054, "dur":338, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1729270482857396, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1729270482857404, "dur":2189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1729270482859692, "dur":287, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1729270482859984, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1729270482859990, "dur":2490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1729270482862618, "dur":350, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1729270482862972, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1729270482862984, "dur":2639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1729270482865742, "dur":271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1729270482866016, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1729270482866023, "dur":3587, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1729270482869772, "dur":333, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1729270482870109, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1729270482870116, "dur":4053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1729270482874284, "dur":317, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1729270482874627, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1729270482874635, "dur":3739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1729270482878488, "dur":362, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1729270482878854, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1729270482878861, "dur":2848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1729270482881829, "dur":3823, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1729270482885656, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1729270482885664, "dur":5532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1729270482891318, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":5, "ts":1729270482891454, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1729270482891462, "dur":8670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":5, "ts":1729270482900223, "dur":95008, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1729270482827046, "dur":736, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1729270482827783, "dur":8212, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1729270482835995, "dur":379, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1729270482836378, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1729270482840723, "dur":4989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1729270482845913, "dur":1228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP.exe" }}
+,{ "pid":12345, "tid":6, "ts":1729270482847146, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1729270482847155, "dur":3093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP.exe" }}
+,{ "pid":12345, "tid":6, "ts":1729270482850331, "dur":265, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1729270482850632, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1729270482850860, "dur":2347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1729270482853306, "dur":272, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1729270482853582, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1729270482853589, "dur":5305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1729270482858984, "dur":1782, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1729270482860769, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1729270482860776, "dur":3591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1729270482864461, "dur":269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1729270482864733, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1729270482864741, "dur":1982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1729270482866829, "dur":316, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1729270482867150, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1729270482867159, "dur":2868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1729270482870159, "dur":490, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1729270482870653, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1729270482870662, "dur":3706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1729270482874514, "dur":344, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1729270482874862, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1729270482874869, "dur":3709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1729270482878697, "dur":363, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1729270482879063, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1729270482879131, "dur":2924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1729270482882141, "dur":638, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1729270482882783, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1729270482882790, "dur":2675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1729270482885555, "dur":3816, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1729270482889375, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1729270482889386, "dur":5562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1729270482895113, "dur":250, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1729270482895367, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1729270482895375, "dur":3050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1729270482898585, "dur":326, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1729270482898918, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1729270482898935, "dur":1940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1729270482900950, "dur":94285, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1729270482827089, "dur":700, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1729270482827789, "dur":8196, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1729270482835989, "dur":1308, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1729270482837301, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1729270482840481, "dur":4342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1729270482844942, "dur":231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":7, "ts":1729270482845183, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1729270482845193, "dur":2983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":7, "ts":1729270482848276, "dur":328, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729270482848609, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1729270482849306, "dur":2778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729270482852191, "dur":338, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729270482852533, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1729270482852541, "dur":5095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729270482857734, "dur":267, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729270482858005, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1729270482858011, "dur":2635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729270482860762, "dur":332, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729270482861099, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1729270482861107, "dur":3690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729270482864910, "dur":338, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729270482865252, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1729270482865261, "dur":3477, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729270482868874, "dur":457, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729270482869335, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1729270482869343, "dur":4314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729270482873794, "dur":382, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729270482874181, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1729270482874189, "dur":3001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729270482877286, "dur":263, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729270482877552, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1729270482877559, "dur":3215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729270482880895, "dur":415, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729270482881314, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1729270482881324, "dur":2730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729270482884152, "dur":433, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729270482884588, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1729270482884596, "dur":3218, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729270482887958, "dur":454, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729270482888416, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1729270482888423, "dur":2737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729270482891273, "dur":358, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729270482891635, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1729270482891642, "dur":3117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729270482894958, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/resources.assets" }}
+,{ "pid":12345, "tid":7, "ts":1729270482895126, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1729270482895136, "dur":4404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/resources.assets" }}
+,{ "pid":12345, "tid":7, "ts":1729270482899688, "dur":95521, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1729270482827117, "dur":676, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1729270482827793, "dur":8194, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1729270482835988, "dur":1299, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1729270482837291, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1729270482840484, "dur":4285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1729270482844878, "dur":262, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1729270482845144, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1729270482845592, "dur":4549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1729270482850270, "dur":326, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1729270482850629, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1729270482850864, "dur":2432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1729270482853382, "dur":283, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1729270482853668, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1729270482853674, "dur":4917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1729270482858680, "dur":279, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1729270482858962, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1729270482858968, "dur":2604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1729270482861664, "dur":325, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1729270482861992, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1729270482862000, "dur":3095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1729270482865224, "dur":345, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1729270482865574, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1729270482865581, "dur":3624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1729270482869290, "dur":300, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1729270482869594, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1729270482869602, "dur":3925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1729270482873676, "dur":377, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1729270482874057, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1729270482874065, "dur":2543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1729270482876733, "dur":306, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1729270482877043, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1729270482877050, "dur":3627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1729270482880788, "dur":398, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1729270482881191, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1729270482881200, "dur":3149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1729270482884457, "dur":447, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1729270482884908, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1729270482884916, "dur":3166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1729270482888192, "dur":648, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":8, "ts":1729270482888845, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1729270482888852, "dur":3807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":8, "ts":1729270482892772, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":8, "ts":1729270482892886, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1729270482892894, "dur":3230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":8, "ts":1729270482896248, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":8, "ts":1729270482896362, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1729270482896371, "dur":2566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":8, "ts":1729270482899211, "dur":96001, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1729270482827174, "dur":624, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1729270482827798, "dur":8193, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1729270482835992, "dur":400, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1729270482836396, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1729270482840446, "dur":4748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1729270482845381, "dur":131884, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":9, "ts":1729270482977270, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1729270482977278, "dur":17820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":9, "ts":1729270482995173, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":9, "ts":1729270482995177, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1729270482827212, "dur":594, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1729270482827806, "dur":8195, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1729270482836001, "dur":1504, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1729270482837508, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1729270482840340, "dur":3949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1729270482844395, "dur":208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1729270482844607, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1729270482845711, "dur":2764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1729270482848586, "dur":317, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1729270482848908, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1729270482849389, "dur":2496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1729270482851989, "dur":323, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1729270482852316, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1729270482852325, "dur":4328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1729270482856768, "dur":344, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1729270482857117, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1729270482857127, "dur":2295, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1729270482859533, "dur":548, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":10, "ts":1729270482860085, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1729270482860095, "dur":2799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":10, "ts":1729270482862990, "dur":341, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1729270482863336, "dur":52, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1729270482863397, "dur":2412, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1729270482865908, "dur":303, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1729270482866214, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1729270482866220, "dur":3242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1729270482869622, "dur":385, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1729270482870028, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1729270482870064, "dur":4019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1729270482874197, "dur":388, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1729270482874623, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1729270482874631, "dur":3880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1729270482878609, "dur":413, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1729270482879028, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1729270482879040, "dur":2943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1729270482882097, "dur":374, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1729270482882476, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1729270482882484, "dur":2537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1729270482885147, "dur":872, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":10, "ts":1729270482886024, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1729270482886034, "dur":3093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":10, "ts":1729270482889267, "dur":594, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1729270482889864, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1729270482889871, "dur":3836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1729270482893845, "dur":325, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":10, "ts":1729270482894175, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1729270482894186, "dur":2641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":10, "ts":1729270482896958, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":10, "ts":1729270482897126, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1729270482897144, "dur":2936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":10, "ts":1729270482900165, "dur":95062, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1729270482827250, "dur":559, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1729270482827809, "dur":8189, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1729270482835998, "dur":542, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1729270482836545, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1729270482840604, "dur":4617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1729270482845401, "dur":24879, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":11, "ts":1729270482870284, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1729270482870290, "dur":3362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":11, "ts":1729270482873780, "dur":399, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1729270482874183, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1729270482874191, "dur":3296, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1729270482877571, "dur":336, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1729270482877912, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1729270482877920, "dur":3203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1729270482881215, "dur":761, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":11, "ts":1729270482881980, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1729270482881989, "dur":2842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":11, "ts":1729270482884943, "dur":314, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":11, "ts":1729270482885283, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1729270482885289, "dur":2888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":11, "ts":1729270482888281, "dur":576, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":11, "ts":1729270482888861, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1729270482888870, "dur":3361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":11, "ts":1729270482892379, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1729270482892502, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1729270482892513, "dur":8886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/Space SHMUP_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1729270482901470, "dur":93753, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1729270482827278, "dur":536, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1729270482827815, "dur":8194, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1729270482836010, "dur":580, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1729270482836594, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1729270482840607, "dur":4495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1729270482845262, "dur":69550, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":12, "ts":1729270482914817, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1729270482914967, "dur":5412, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Luke Plage/Downloads/GameDesignClass/Project 3 Space SHMUP/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":12, "ts":1729270482920457, "dur":74757, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1729270482999080, "dur":2027, "ph":"X", "name": "ProfilerWriteOutput" }
+,
